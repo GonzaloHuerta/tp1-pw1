@@ -3,6 +3,11 @@ body{
   background-color: #fafafa;
 }
 
+h1{
+  text-align: center;
+  font-family: 'Acme', sans-serif;
+}
+
 .lorem{
   margin-top: 200px;
 }
@@ -36,7 +41,7 @@ body{
   /*width: auto;*/
   border-radius: 5px;
   background-color: #000000;
-  padding: 8px;
+  /*padding: 5px;*/
 }
 
 .carrito-img:hover{
@@ -88,7 +93,50 @@ body{
   overflow: hidden;
 }
 
+.banner{
+  width: 100%;
+  margin-top: 4%;
+}
+
+.img-banner{
+  width: 100%;
+}
+
+/*Container*/
+.container{
+  width: 100%;
+}
+
+.product-column{
+  width: 23%;
+  margin-left: 7.75%;
+  border: 2px solid #fafafa;
+  float: left;
+  margin-bottom: 3%;
+}
+
+.product-name{
+  height: 30px;
+  background-color: #2462A6;
+  color: #ffffff;
+  text-align: center;
+  font-weight: 900;
+  font-size: 18px;
+  font-family: 'Acme', sans-serif;
+
+}
+
+.precio{
+  text-align: center;
+  font-weight: 900;
+  font-family: 'Acme', sans-serif;
+}
 /*Footer*/
+
+.img-product{
+  width: 100%;
+  margin: 0 auto;
+}
 
 footer
 {
