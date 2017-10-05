@@ -2,10 +2,10 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
     <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Wendy+One" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+    <title></title>
   </head>
   <body>
     <header>
@@ -13,10 +13,10 @@
         <div class="header-content">
           <a href="index.html"><img src="img/netsports-logo-final.png" alt="netsports-logo" class="logo"></a>
           <ul class="main-menu">
-            <li class="menu-item"><a href="#" class="item"><span class="back-menu">Home</span></a></li>
+            <li class="menu-item"><a href="index.html" class="item"><span class="back-menu">Home</span></a></li>
             <li class="menu-item"><a href="#" class="item"><span class="back-menu">Productos</span></a></li>
             <li class="menu-item"><a href="#" class="item"><span class="back-menu">Nosotros</span></a></li>
-            <li class="menu-item"><a href="contacto.html" class="item"><span class="back-menu">Contacto</span></a></li>
+            <li class="menu-item"><a href="#" class="item"><span class="back-menu">Contacto</span></a></li>
           </ul>
           <div class="cart-container">
           <a href="checkout.html"><img src="img/carrito.png" alt="carrito" class="carrito-img"></a>
@@ -25,70 +25,22 @@
         </div>
       </div>
     </header>
-
-    <div class="banner">
-      <img src="img/banner.jpg" alt="" class="img-banner">
-    </div>
-
-    <div class="container">
-      <br><br>
-      <div class="title-line-container">
-        <h1 class="line"><span class="line-title">Nuestros productos</span></h1>
-      </div>
-      <br><br>
-      <a href="product.html"><div class="product-column">
-        <img src="img/zapas.jpg" alt="" class="img-product">
-        <div class="precio">
-          <h4>Zapas</h4>
-          <p>$1800</p>
-        </div>
-        <div class="product-name"><h3>COMPRAR</h3></div>
-      </div></a>
-
-      <a href="product.html"><div class="product-column">
-        <img src="img/zapas.jpg" alt="" class="img-product">
-        <div class="precio">
-          <h4>Zapas</h4>
-          <p>$1800</p>
-        </div>
-        <div class="product-name"><h3>COMPRAR</h3></div>
-      </div></a>
-
-      <a href="product.html"><div class="product-column">
-        <img src="img/zapas.jpg" alt="" class="img-product">
-        <div class="precio">
-          <h4>Zapas</h4>
-          <p>$1800</p>
-        </div>
-        <div class="product-name"><h3>COMPRAR</h3></div>
-      </div></a>
-
-      <a href="product.html"><div class="product-column">
-        <img src="img/zapas.jpg" alt="" class="img-product">
-        <div class="precio">
-          <h4>Zapas</h4>
-          <p>$1800</p>
-        </div>
-        <div class="product-name"><h3>COMPRAR</h3></div>
-      </div></a>
-
-      <a href="product.html"><div class="product-column">
-        <img src="img/zapas.jpg" alt="" class="img-product">
-        <div class="precio">
-          <h4>Zapas</h4>
-          <p>$1800</p>
-        </div>
-        <div class="product-name"><h3>COMPRAR</h3></div>
-      </div></a>
-
-      <a href="product.html"><div class="product-column">
-        <img src="img/zapas.jpg" alt="" class="img-product">
-        <div class="precio">
-          <h4>Zapas</h4>
-          <p>$1800</p>
-        </div>
-        <div class="product-name"><h3>COMPRAR</h3></div>
-      </div></a>
+    <div>
+      <div class="divtitle" ><h1>Formulario de contacto</h1></div>
+      <div class="divtitle"><h1>Datos de contacto y centro de atención</h1></div>
+      <section class="formulario">
+        <form class="divcontact" action="index.html" method="post">
+          Nombre <br> <input type="text" placeholder="Ingrese su nombre" pattern="[a-z]{1-30}" autofocus required> *<br><br>
+          Apellido <br> <input type="text" name="Apellido" placeholder="Ingrese su apellido" pattern="[a-z]{1-30}" required> *<br> <br>
+          Email <br> <input type="email" name="email" placeholder="pepito23@dominio.com"> *<br><br>
+          Celular <br> <input type="tel" name="Teléfono" pattern="[0-9]{10}" maxlength="10"> *<br> <br>
+          Mensaje <br> <textarea name="Comentarios" rows="8" cols="60" placeholder="Tu comentario" required></textarea> *<br>
+          <input class="botones" type="submit" name="" value="Enviar"> <input class="botones" type="reset" name="Restablecer" value="Restablecer">
+        </form>
+      </section>
+      <div class="divcontact" id="datos">Teléfonos: 1234-5678 / 11-88744126 <br> <br>Email: netsports@sport.com.ar <br> <br> Direccion: Calle Falsa 123 (9876),CABA</div>
+      <div class="divtitlemap"><h1>Ubicación</h1></div>
+      <div class="divmap"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d689.8209591295749!2d-58.562521383705466!3d-34.67086330889589!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2f8e8c6c28974821!2sUNLaM!5e0!3m2!1ses!2ses!4v1506461745106" allowfullscreen></iframe></div>
     </div>
 
     <footer>
@@ -108,6 +60,5 @@
           <h6>Nuestros datos &copy; 2017 NetSports Argentina <br> Dirección General de Defensa y Protección al consumidor: Para consultas y/o denuncias ingrese aquí</h6>
         </div>
       </footer>
-
   </body>
 </html>
